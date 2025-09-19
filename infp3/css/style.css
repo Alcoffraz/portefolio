@@ -1,8 +1,15 @@
 h1 {
-    color: rgba(0, 146, 110, 0.308);
-    text-align: center;
+    color: rgba(0, 146, 56, 0.705);
+        text-align: center;
+
 }
 body {
+    background-color: rgba(165, 0, 0, 0.726);
+}
+header {
+    background-color: rgba(8, 189, 212, 0.644);
+}
+main {
     background-color: rgba(40, 0, 85, 0.664);
 }
 button {
