@@ -12,3 +12,9 @@ p {
     color:rgb(30, 0, 78)
 
 }
+img {
+    margin: auto;
+    display: flex;
+    width: auto;
+
+}
