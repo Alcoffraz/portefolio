@@ -7,9 +7,68 @@
     <link rel="stylesheet" href="../css/stylep2.css">
 </head>
 <body>
-    
-    <h1>La page 2</h1>
-    <a href="../index.html">Retour à la page d'accueil</a>
+    <header>
+        <h1>Bienvenur sur le site De la page 2 </h1>
+        <nav>
+                 <!--Permet d'accèder à d'autres pages-->
 
+            <a href="../index.html">Retour à la page d'accueil</a>       
+            <a href="parcours.html">Parcours</a>
+            <a href="presentation.html"> Présentation</a>
+            <a href="contact.html"> Contact</a>
+            
+        </nav>
+    </header>
+    <main>
+
+        <!-- Lien vers le site en ligne-->
+        <p>truc https://alcoffraz.github.io/unnom-tontrucilasugg-r-portefolio/infp3  Gabriel Le Gohebel L1 Info</p>
+
+        <!-- Les deux lignes après sont du bazar de test , strong permet de mettre en gras-->
+        <h1>Je suis un titre Deux la page </h1>
+        
+        <p><strong>Je suis un paragraphe Deux la page en gras </strong></p>
+    
+        <!-- br permet d'aller à la ligne -->
+        <br>
+
+        <!-- Test de l input mais j ai pas réussi à réaficher le prénom donc j'ai fait autrement-->
+        Tapez votre prenom :<input name="prenom" />
+
+        <!-- affiche tout à fait quand on clique dessus pour remplacer le prénom car j'ai pas réussi -->
+        <p onclick="alert('tout a fait')">Ton nom est :</p>
+
+        <!-- Un bouton qui est aussi petit que la statue de la liberté-->
+        <button onclick="alert('Salut j aime les input meme si eux pas')">Hey je suis un Bouton,en tout petit bien sur</button>
+        <br>
+
+        
+
+        <!-- img affiche le hibou trop stylé -->
+        <img src="../image/hibouduc.jpg">
+
+        <!-- a href permet de créer des hypertext -->
+        <a href="http://vincent-vanneste.fr/views/site-web/co/block-inline.html">le cours d html et de css</a>
+        <a href="https://vincent-vanneste.fr/views/javascript/co/module_Javascript.html">javaScript</a>
+        <a href="https://vincent-vanneste.fr/views/css_base/co/module_CSS.html">Css</a>
+        <a href="https://vincent-vanneste.fr/views/">Page d accueil de tout les cours</a>
+    
+    </main>
+    
+    <h2>Test JS dans balise script</h2>
+    <!-- Permet d'accèder au code javascript-->
+    <script src="js/jscode.js"></script>
+
+
+    <!-- Création d'une classe image qui permet de changer le hibou en un truc noir -->
+    <div class="imag">
+
+    <img alt='image'
+
+     src='../image/homard_rouge.webp'
+
+     onclick='this.src ="../image/truc_vert.png";'/>
+
+    </div>
 </body>
 </html>

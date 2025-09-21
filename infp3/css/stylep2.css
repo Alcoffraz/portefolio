@@ -1,10 +1,42 @@
 h1 ,h2 {
-    color: rgba(2, 32, 14, 0.705);
+    color: rgba(6, 97, 41, 0.705);
         text-align: center;
-        }   
+
+}
 
 body {
-    background-color: rgba(132, 0, 165, 0.726);
+    background-color: rgba(165, 0, 0, 0.726);
     
 
+}
+header {
+    background-color: rgba(8, 189, 212, 0.644);
+    border:2px solid black;
+}
+main {
+    background-color: rgba(40, 0, 85, 0.664);
+    border:2px solid black;
+}
+button {
+    font-size: 2px;
+    color: black;
+}
+p {
+    color:rgb(30, 0, 78)
+
+}
+img {
+    margin: auto;
+    display: flex;
+    width: auto;
+
+}
+
+.imag {
+    background-color: rgba(76, 85, 0, 0.664);
+    border:2px solid black;
+}
+
+a {
+    margin-right: 10px;
 }
