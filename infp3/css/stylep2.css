@@ -37,6 +37,21 @@ img {
     border:2px solid black;
 }
 
+nav a{
+    color: blue;
+}
 a {
     margin-right: 10px;
+    color: black;
+}
+nav a:hover{
+        color:rgb(174, 0, 255);
+}
+footer {
+    text-align:start;
+    background-color: rgba(200, 38, 206, 0.349);
+
+}
+a:hover{
+        color:rgb(0, 132, 255);
 }

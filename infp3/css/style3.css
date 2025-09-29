@@ -1,49 +1,23 @@
-h1 ,h2 header{
+h1 ,h2 {
     color: rgba(2, 32, 14, 0.705);
         text-align: center;
         }   
 
 body {
     background-color: rgba(190, 149, 201, 0.486);
-    
-
 }
 
 a {
     margin-right: 5px;
     margin-left: 5px;
-
+    font-size: 20px;
 }
+
 
 header {
     background-color: rgb(127, 255, 212);
     border:2px solid black;
-
 }
-
-.lien1 {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    flex-wrap: wrap;
-
-
-}
-
-.bluh {
-    display: flex;
-    justify-content: right;
-    font-size: 8px;
-    
-}
-
 nav a:hover{
         color:rgb(0, 132, 255);
-}
-
-
-footer {
-    text-align:start;
-    background-color: rgba(200, 38, 206, 0.349);
-
 }
