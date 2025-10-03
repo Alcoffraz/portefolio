@@ -6,7 +6,6 @@ h1 ,h2 header{
 body {
     background-color: #82c0cc;
     font-family: 'blacksmith', sans-serif;
-
 }
 
 a {
@@ -61,4 +60,5 @@ footer {
     src:url('fonts/blacksmith.ttf') format("ttf");
     font-weight: normal;
     font-style: normal;
+
 }
