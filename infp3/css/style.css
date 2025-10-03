@@ -6,11 +6,12 @@ h1 ,h2 header{
 body {
     background-color: #82c0cc;
     font-family: 'blacksmith', sans-serif;
+
 }
 
 a {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
     color: #82c0cc;
 
 }
@@ -60,5 +61,12 @@ footer {
     src:url('fonts/blacksmith.ttf') format("ttf");
     font-weight: normal;
     font-style: normal;
+}
 
+.boite1 , .boite2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boite1 p{
+    margin-left: 10px;
 }

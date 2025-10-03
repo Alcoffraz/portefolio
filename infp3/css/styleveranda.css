@@ -1,9 +1,14 @@
 nav a{
     color:rgb(23, 103, 173);
+    text-align: left;
 }
 
 nav a:hover{
     color: blueviolet;
+}
+
+header p{
+    margin-left: 0.5%;
 }
 
 body {
@@ -11,14 +16,27 @@ body {
 }
 
 h1,h2,h3 {
-    color:red
+    color:red;
 }
 ul {
     list-style-type: none;
 }
 header {
     background-color: rgb(226, 172, 121);
+    border:2px solid black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    
 }
 header h1 {
     color:rgb(23, 103, 173) ;
+    text-align: center;
+}
+h6 {
+    font-size: 100%;
+}
+img {
+    margin: auto;
+    display: flex;
+    width: auto;
 }

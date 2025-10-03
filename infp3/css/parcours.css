@@ -1,0 +1,49 @@
+h1 ,h2 header{
+    color: #ffa62b;
+        text-align: center;
+        }   
+
+body {
+    background-color: #82c0cc;
+    font-family: 'blacksmith', sans-serif;
+
+}
+
+a {
+    margin-right: 5px;
+    margin-left: 10px;
+    color: #82c0cc;
+    padding: 0.2%;
+}
+
+header {
+    background-color: #16697A;
+    border:2px solid black;
+    border-radius: 25px;
+}
+nav a:hover{
+        color:#ede7e3;
+}
+
+
+
+.parc {
+    justify-items: center;
+}
+table {
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #004080;
+    color: white;
+
+}
+#class1 , #class2 , #class3 {
+    background-color: #004080;
+    color: white;
+}
