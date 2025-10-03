@@ -6,6 +6,7 @@ h1 ,h2 {
 
 body {
     background-color: rgba(165, 0, 0, 0.726);
+    font-family: 'blacksmith', sans-serif;
     
 
 }
@@ -54,4 +55,10 @@ footer {
 }
 a:hover{
         color:rgb(0, 132, 255);
+}
+@font-face {
+    font-family: 'blacksmith' ;
+    src:url('fonts/blacksmith.ttf') format("ttf");
+    font-weight: normal;
+    font-style: normal;
 }

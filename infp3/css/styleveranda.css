@@ -1,0 +1,24 @@
+nav a{
+    color:rgb(23, 103, 173);
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+body {
+    background-color: rgba(185, 202, 216, 0.644);
+}
+
+h1,h2,h3 {
+    color:red
+}
+ul {
+    list-style-type: none;
+}
+header {
+    background-color: rgb(226, 172, 121);
+}
+header h1 {
+    color:rgb(23, 103, 173) ;
+}

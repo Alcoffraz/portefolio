@@ -17,7 +17,10 @@ a {
 header {
     background-color: rgb(127, 255, 212);
     border:2px solid black;
+    border-radius: 25px;
+    
 }
 nav a:hover{
         color:rgb(0, 132, 255);
+        
 }
