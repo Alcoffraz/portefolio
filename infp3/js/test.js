@@ -7,15 +7,26 @@ const body = document.body;
 if (localStorage.getItem('theme') === 'old') {
   body.classList.add('old-mode');
 }
-
+if (localStorage.getItem('theme') === 'jue') {
+  body.classList.add('jue-mode');
+}
 // Quand on clique sur le bouton
 toggleButton.addEventListener('click', () => {
+    if (body.classList.contains('basic-mode')){
   body.classList.toggle('old-mode');
+    }
+
+
   
   // Sauvegarder la préférence
   if (body.classList.contains('old-mode')) {
     localStorage.setItem('theme', 'old');
     window.console.log("Mode ancien");
+
+  } 
+  if (body.classList.contains('jue-mode')) {
+    localStorage.setItem('theme', 'jue');
+    window.console.log("Mode Jue");
 
   } 
   

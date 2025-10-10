@@ -1,10 +1,35 @@
+
+:root{
+
+    --nom_variable: nom_couleur;
+    --orange:#ffa62b;
+    --surl:#ede7e3;
+    --back:#82c0cc;
+    --head:#16697A;
+    --foots:#489fb5;
+}
+.old-mode {
+    --orange:rgba(2, 32, 14, 0.705);
+    --surl:#ede7e3;
+    --back:rgba(190, 149, 201, 0.486);
+    --head:rgb(127, 255, 212);
+    --foots:rgba(190, 149, 201, 0.9);
+}
+
+.jue-mode {
+    --orange:blue;
+    --surl:black;
+    --back:purple;
+    --head:red;
+    --foots:white;
+}
 h1 ,h2 header{
-    color: #ffa62b;
+    color: var(--orange);
         text-align: center;
         }   
 
 body {
-    background-color: #82c0cc;
+    background-color:var(--back);
     font-family: 'blacksmith', sans-serif;
 
 }
@@ -12,12 +37,12 @@ body {
 a {
     margin-right: 0.5%;
     margin-left: 0.5%;
-    color: #82c0cc;
+    color: var(--back);
 
 }
 
 header {
-    background-color: #16697A;
+    background-color: var(--head);
     border:2px solid black;
     border-radius: 25px;
 }
@@ -40,20 +65,20 @@ header {
 }
 
 nav a:hover{
-        color:#ede7e3;
+        color:var(--surl);
 }
 
 
 footer {
     text-align:start;
-    background-color: #489fb5;
+    background-color: var(--foots);
 
 }
 #porte {
     color: black;
 }
 #porte a:hover {
-    color:#ede7e3;
+    color:var(--surl);
     
 }
 @font-face {
@@ -69,4 +94,9 @@ footer {
 }
 .boite1 p{
     margin-left: 10px;
+}
+#theme-toggle{
+    background-color: var(--back);
+    border-radius: 50%;
+    padding: 0.5%;
 }
