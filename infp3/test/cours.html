@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Vincent Vanneste</title>
+    <link rel="stylesheet" href="suitecours.css">
+    <link rel="stylesheet" href="cours.css">
+    <!-- Import de polices externes (Google Fonts) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CDN pour icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="haut" role="banner" aria-label="En-tête du site">
+        <figure role="img" aria-labelledby="figcaption-vv">
+            <img src="images/photo.jpg" alt="Photo de Vincent Vanneste">
+            <figcaption id="figcaption-vv">Vincent Vanneste</figcaption>
+        </figure>
+
+        <h1>Portfolio de Vincent Vanneste</h1>
+        <nav role="navigation" aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="https://www.univ-littoral.fr/" target="_blank">ULCO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main role="main">
+        <nav role="navigation" aria-label="Navigation interne à la page">
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#formations">Formations</a></li>
+            </ul>
+        </nav>
+
+        <!-- À propos -->
+        <section id="about" role="region" aria-labelledby="titre-about">
+            <h2 class="icon-about" id="titre-about">À propos</h2>
+            <p>Je suis directeur des études du DEUST WMI de Calais et j'enseigne les fondamentaux du développement web
+                (HTML, CSS, JavaScript, PHP). Passionné par la transmission des connaissances, j'accompagne mes
+                étudiants dans l'acquisition des compétences nécessaires pour réussir dans le secteur du numérique.</p>
+            <address role="contentinfo" aria-label="Coordonnées">
+                <dl>
+                    <dt>Localisation :</dt>
+                    <dd>Calais, France</dd>
+                    <dt>Site :</dt>
+                    <dd><a href="https://vincent-vanneste.fr/" target="_blank">vincent-vanneste.fr</a></dd>
+                    <dt>Email :</dt>
+                    <dd><a href="mailto:vincent.vanneste@univ-littoral.fr">vincent.vanneste@univ-littoral.fr</a></dd>
+                </dl>
+            </address>
+        </section>
+
+
+
+        <!-- Compétences -->
+        <section id="competences" role="region" aria-labelledby="titre-competences">
+            <h2 class="icon-competences" id="titre-competences">Compétences</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Responsive</li>
+                <li>Accessibilité</li>
+                <li>JavaScript</li>
+                <li>PHP • Laravel 11</li>
+                <li>MySQL</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+
+
+        <!-- Expériences -->
+        <section id="experiences" role="region" aria-labelledby="titre-experiences">
+            <h2 class="icon-experiences" id="titre-experiences">Expériences récentes</h2>
+            <ul>
+                <li>
+                    <strong>Enseignant – Licence 1 Informatique</strong><br>
+                    <time datetime="2025">2025</time> •
+                    <address>
+                        <a href="https://www.univ-littoral.fr/" target="_blank">ULCO</a>
+                    </address><br>
+                    Introduction à HTML, CSS, JS
+                </li>
+                <li>
+                    <strong>Directeur des études – DEUST WMI</strong><br>
+                    <time datetime="2024-2025">2024 → 2025</time> •
+                    <address>
+                        <a href="https://www.univ-littoral.fr/" target="_blank">FCU ULCO</a>
+                    </address>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Formations -->
+        <section id="formations" role="region" aria-labelledby="titre-formations">
+            <h2 class="icon-formations" id="titre-formations">Formations</h2>
+            <ul>
+                <li>
+                    <strong>Doctorat productique, automatique et informatique industrielle</strong><br>
+                    <time datetime="2000">2000</time> •
+                    <address>
+                        <a href="https://www.univ-lille.fr/" target="_blank">Université de Lille</a>
+                    </address>
+                </li>
+                <li>
+                    <strong>CAPET Technologie</strong><br>
+                    <time datetime="1998">1998</time> •
+                    <address>
+                        <a href="https://www.iufm-douai.fr/" target="_blank">IUFM Douais</a>
+                    </address>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo" aria-label="Pied de page">
+        <p>&copy; 2025 <strong>Vincent Vanneste</strong>. Tous droits réservés.</p>
+        <!-- Réseaux sociaux -->
+        <div class="socials" aria-label="Réseaux sociaux">
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://x.com/" target="_blank" aria-label="X">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
