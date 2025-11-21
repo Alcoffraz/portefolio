@@ -7,20 +7,16 @@
     --back:#82c0cc;
     --head:#16697A;
     --foots:#489fb5;
-}
-.old-mode {
-    --orange:rgba(2, 32, 14, 0.705);
-    --surl:#ede7e3;
-    --back:rgba(190, 149, 201, 0.486);
-    --head:rgb(127, 255, 212);
-    --foots:rgba(190, 149, 201, 0.9);
+    --foots2:rgba(190, 149, 201, 0.9);
 }
 
-.jue-mode {
-    --orange:blue;
+    
+
+.old-mode {
+    --orange:rgb(34, 212, 28);
     --surl:black;
     --back:purple;
-    --head:red;
+    --head:#1e3ea8;
     --foots:white;
 }
 h1 ,h2 header{
@@ -29,8 +25,9 @@ h1 ,h2 header{
         }   
 
 body {
-    background-color:var(--back);
     font-family: 'blacksmith', sans-serif;
+    background:linear-gradient(135deg, rgb(20, 78, 167),var(--back),var(--surl));
+
 
 }
 
@@ -100,3 +97,59 @@ footer {
     border-radius: 50%;
     padding: 0.5%;
 }
+
+
+nav a:hover {
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    /* background-color: #005bb5; <- Propriété écrasée par le dégradé ci-dessous */
+    background: linear-gradient(135deg, var(--foots),var(--orange));
+    /* Dégradé appliqué au survol */
+
+    /*******************/
+    /* Transformations */
+    /*******************/
+    transform: translateY(-3px) scale(1.05);
+    /* Soulève le lien et l’agrandit légèrement */
+}
+
+nav a {
+    /**********************/
+    /* Boîte & Espacement */
+    /**********************/
+    display: inline-block;
+    /* Permet au lien d'être transformable et de gérer le padding */
+    padding: 6px 12px;
+    /* Espace intérieur autour du texte */
+
+    /***************/
+    /* Typographie */
+    /***************/
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+    color: #fff;
+    /* Couleur du texte : blanc */
+    font-weight: bold;
+    /* Texte en gras */
+
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    background-color: var(--head);
+    /* Couleur de fond bleu vif */
+
+    /************/
+    /* Bordures */
+    /************/
+    border-radius: 6px;
+    /* Coins arrondis pour un effet "bouton" */
+
+    /***************/
+    /* Transitions */
+    /***************/
+    transition: transform 2s ease;
+    /* Animation fluide pour le déplacement au survol */
+}
+/* --- Survol des liens de navigation interne --- */
+
