@@ -1,0 +1,80 @@
+.maison{
+    border: 2px black;
+    display: grid;
+    grid-template-columns: repeat(100, 10px);
+    grid-template-rows: repeat(100, 20px);
+    gap: 10px;
+}
+
+.Ligne_plancher {
+    grid-column: 1 /span 99;
+    grid-row: 90 /span 15;
+    background-color: grey;
+}
+
+.Plafond {
+    grid-column: 1 /span 99;
+    grid-row: 30 /span 10;
+    background-color: rgb(207, 125, 17);
+}
+
+.mur_gauche {
+    grid-column: 1 /span 10;
+    grid-row: 35 /span 70;
+    background-color: rgb(41, 30, 34);
+}
+
+.mur_droite {
+    grid-column: 90 /span 10;
+    grid-row: 35 /span 70;
+    background-color: rgb(41, 30, 34);
+}
+
+.douze {
+    grid-column: 6 /span 89;
+    grid-row: 26 /span 5;
+    background-color: rgb(207, 125, 17);
+}
+
+.treize {
+    grid-column: 11 /span 79;
+    grid-row: 22 /span 5;
+    background-color: rgb(207, 125, 17);
+}
+
+.quatre {
+    grid-column: 17 /span 69;
+    grid-row: 18 /span 5;
+    background-color: rgb(207, 125, 17);
+}
+
+.cinq {
+    grid-column: 23 /span 59;
+    grid-row: 14 /span 5;
+    background-color: rgb(207, 125, 17);
+}
+
+.six {
+    grid-column: 27 /span 49;
+    grid-row: 10 /span 5;
+    background-color: rgb(207, 125, 17);
+}
+
+.sept {
+    grid-column: 31 /span 39;
+    grid-row: 6 /span 5;
+    background-color: rgb(207, 125, 17);
+}
+
+.arriere {
+    grid-column: 1 /span 99;
+    grid-row: 30 /span 69;
+    background-color: antiquewhite;
+   
+        
+}
+p {
+    justify-content: center;
+    text-align: center;
+    font-size: 200px;
+}
