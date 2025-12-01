@@ -1,0 +1,17 @@
+body{
+    font-family: var(--police-principale);
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    padding: var(--padding-section);
+}
+
+h1 {
+    font-family: var(--police-titre);
+    color: var(--couleur-primaire);
+}
+
+button {
+    background-color: var(--couleur-secondaire);
+    color: white;
+}
+

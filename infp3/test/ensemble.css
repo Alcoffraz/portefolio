@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-a:hover{
-    color: rgb(176, 127, 255);
-}
 body {
     background-color: rgba(0, 0, 0, 0.336);
 }
@@ -79,4 +76,37 @@ body {
     border: 2px black solid;
     color: white;
     text-align: center;
+}
+.finition {
+    grid-row: 9;
+    grid-column: 3;
+    align-items: center;
+    background-color: rgba(83, 48, 59, 0.74);
+    border: 2px black solid;
+    color: white;
+    text-align: center;
+}
+a {
+    font-size: 1.5vw;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 6px 12px;
+    /* Espace intérieur autour du texte */
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: transform 2s ease;
+  
+}
+a:hover {
+
+    background: linear-gradient(135deg, orange,blueviolet, green);
+    /* Transformations */
+    transform: translateY(-3px) scale(1.05);
+    /* Soulève le lien et l’agrandit légèrement */
+    color: whitesmoke;
+
 }

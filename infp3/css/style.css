@@ -26,8 +26,7 @@ h1 ,h2 header{
 
 body {
     font-family: 'blacksmith', sans-serif;
-    background:linear-gradient(135deg, rgb(20, 78, 167),var(--back),var(--surl));
-
+    background:linear-gradient(135deg, rgba(20, 79, 167, 0.815),var(--back),var(--surl));
 
 }
 
@@ -73,7 +72,7 @@ footer {
 }
 #porte {
     color: black;
-}
+    text-decoration: underline dotted cyan;}
 #porte a:hover {
     color:var(--surl);
     
@@ -100,54 +99,24 @@ footer {
 
 
 nav a:hover {
-    /****************************/
-    /* Couleurs & Arrière-plans */
-    /****************************/
-    /* background-color: #005bb5; <- Propriété écrasée par le dégradé ci-dessous */
-    background: linear-gradient(135deg, var(--foots),var(--orange));
-    /* Dégradé appliqué au survol */
 
-    /*******************/
+    background: linear-gradient(135deg, var(--foots),var(--orange));
     /* Transformations */
-    /*******************/
     transform: translateY(-3px) scale(1.05);
     /* Soulève le lien et l’agrandit légèrement */
 }
 
 nav a {
-    /**********************/
-    /* Boîte & Espacement */
-    /**********************/
+
     display: inline-block;
-    /* Permet au lien d'être transformable et de gérer le padding */
     padding: 6px 12px;
     /* Espace intérieur autour du texte */
-
-    /***************/
-    /* Typographie */
-    /***************/
     text-decoration: none;
     /* Supprime le soulignement par défaut */
     color: #fff;
-    /* Couleur du texte : blanc */
     font-weight: bold;
-    /* Texte en gras */
-
-    /****************************/
-    /* Couleurs & Arrière-plans */
-    /****************************/
     background-color: var(--head);
-    /* Couleur de fond bleu vif */
-
-    /************/
-    /* Bordures */
-    /************/
     border-radius: 6px;
-    /* Coins arrondis pour un effet "bouton" */
-
-    /***************/
-    /* Transitions */
-    /***************/
     transition: transform 2s ease;
     /* Animation fluide pour le déplacement au survol */
 }

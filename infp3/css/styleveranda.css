@@ -40,3 +40,6 @@ img {
     display: flex;
     width: auto;
 }
+section {
+    border: 0.5px solid black;
+}
