@@ -1,0 +1,112 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.ghurn {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    gap: 10px;
+    align-items: center;
+}
+.Accueil {
+    grid-column: 1 /span 2;
+    grid-row: 3 ;
+    align-items: center;
+    background-color: brown;
+    border: 2px black solid;
+    color: white;
+}
+.Flexss {
+    grid-column: 7 /span 2;
+    grid-row: 1 / span 2 ;
+    align-items: center;
+    background-color: rgb(42, 165, 97);
+    border: 2px black solid;
+    color: white;
+
+}
+
+.Degrades {
+    grid-column: 4 /span 2 ;
+    grid-row: 8 / span 2 ;
+    align-items: center;
+    background-color: rgb(201, 183, 20);
+    border: 2px black solid;
+    color: white;
+}
+
+.Gridss {
+    grid-column: 4 /span 3;
+    grid-row: 1 / span 3 ;
+    align-items: center;
+    background-color: rgba(165, 42, 155, 0.74);
+    border: 2px black solid;
+    color: white;
+}
+.Maidon {
+    grid-column: 6 /span 2;
+    grid-row: 4 / span 3 ;
+    align-items: center;
+    background-color: rgba(42, 165, 165, 0.74);
+    border: 2px black solid;
+    color: white;
+    text-align: center;
+}
+.Plate{
+    grid-column: 7 /span 2;
+    grid-row: 10 / span 2 ;
+    align-items: center;
+    background-color: rgba(168, 15, 15, 0.74);
+    border: 2px black solid;
+    color: white;
+    text-align: center;
+}
+
+.taille{
+    grid-row: 4 / span 3 ;
+    grid-column: 2 /span 2;
+    align-items: center;
+    background-color: rgba(106, 42, 165, 0.74);
+    border: 2px black solid;
+    color: white;
+    text-align: center;
+}
+.finition {
+    grid-row: 9;
+    grid-column: 3;
+    align-items: center;
+    background-color: rgba(83, 48, 59, 0.74);
+    border: 2px black solid;
+    color: white;
+    text-align: center;
+}
+a {
+    font-size: 1.5vw;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 6px 12px;
+    /* Espace intérieur autour du texte */
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: transform 2s ease;
+  
+}
+a:hover {
+
+    background: linear-gradient(135deg, orange,blueviolet, green);
+    /* Transformations */
+    transform: translateY(-3px) scale(1.05);
+    /* Soulève le lien et l’agrandit légèrement */
+    color: whitesmoke;
+
+}

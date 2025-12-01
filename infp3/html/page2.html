@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deux la page</title>
+    <link rel="stylesheet" href="../css/stylep2.css">
+</head>
+<body>
+    <header id="haut">
+        <h1>Bienvenue sur le site De la page 2 </h1>
+        <nav>
+                 <!--Permet d'accèder à d'autres pages-->
+
+            <a href="../index.html">Accueil</a>       
+            <a href="parcours.html">Parcours</a>
+            <a href="presentation.html"> Présentation</a>
+            <a href="contact.html"> Contact</a>
+            
+        </nav>
+    </header>
+    <main>
+        <a href="#veranda">Info sur Véranda</a>
+        <!-- Lien vers le site en ligne-->
+        <p>truc https://alcoffraz.github.io/portefolio/infp3  Gabriel Le Gohebel L1 Info</p>
+
+        <!-- Les deux lignes après sont du bazar de test , strong permet de mettre en gras-->
+        <h1>Je suis un titre Deux la page </h1>
+        
+        <p><strong>Je suis un paragraphe Deux la page en gras </strong></p>
+    
+        <!-- br permet d'aller à la ligne -->
+        <br>
+
+        <!-- Test de l input mais j ai pas réussi à réaficher le prénom donc j'ai fait autrement-->
+        Tapez votre prenom :<input name="prenom" />
+
+        <!-- affiche tout à fait quand on clique dessus pour remplacer le prénom car j'ai pas réussi -->
+        <p onclick="alert('tout a fait')">Ton nom est :</p>
+
+        <!-- Un bouton qui est aussi petit que la statue de la liberté-->
+        <button onclick="alert('Salut j aime les input meme si eux pas')">Hey je suis un Bouton,en tout petit bien sur</button>
+        <br>
+
+        
+
+        <!-- img affiche le hibou trop stylé -->
+        <img src="../image/hibouduc.jpg">
+
+        <p id="veranda">Une véranda (anciennement écrit aussi « vérandah »[1]) est aujourd'hui une pièce supplémentaire aux parois majoritairement vitrées, utilisée généralement comme salon ou jardin d'hiver. Prolongement d'une maison existante, c'est un porche ou une galerie légère, couvert (toit plein, semi-vitré ou vitré) et à jour, établi sur la façade d’une maison. L'armature est souvent en bois ou en aluminium, parfois en PVC, en fer forgé ou en acier. Selon la définition du glossaire de l'architecture une véranda est une galerie vitrée, fermée ou ouverte, en appentis devant une façade.
+
+Le constructeur de véranda s'appelle un vérandaliste[2],[3].
+
+Les vérandas modernes
+Dans les pays du nord, les vérandas sont des espaces clos, dont les parois verticales sont composées d'une manière importante de vitrage. Dans les démarches récentes d'habitation bioclimatique, les vérandas sont utilisées pour chauffer les habitations par apport solaire. Dans les pays du sud, les vérandas sont en vitrage pour permettre de climatiser l'espace ou en simple grillage (ou moustiquaire) permettant à l'air extérieur de circuler librement, voire d'être brassé par des ventilateurs, ou combinées à une toiture solaire photovoltaïque, pour permettre d'allier l'avantage de la véranda à la rentabilité du photovoltaïque.
+            </p>
+
+        <!-- a href permet de créer des hypertext -->
+        <a href="http://vincent-vanneste.fr/views/site-web/co/block-inline.html">le cours d html et de css</a>
+        <a href="https://vincent-vanneste.fr/views/javascript/co/module_Javascript.html">javaScript</a>
+        <a href="https://vincent-vanneste.fr/views/css_base/co/module_CSS.html">Css</a>
+        <a href="https://vincent-vanneste.fr/views/">Page d accueil de tout les cours</a>
+    
+    </main>
+    
+    <h2>Test JS dans balise script</h2>
+    <!-- Permet d'accèder au code javascript-->
+    <script src="js/jscode.js"></script>
+
+
+    <!-- Création d'une classe image qui permet de changer le hibou en un truc noir -->
+    <div class="imag">
+
+    <img alt='image'
+
+     src='../image/homard_rouge.webp'
+
+     onclick='this.src ="../image/truc_vert.png";'/>
+
+    </div>
+</body>
+<footer>
+    <span>&copy; 2025 Alcoff. Tous droits réservés. |<a href="#haut">Haut de page</a></span>
+  </footer>  
+</html>

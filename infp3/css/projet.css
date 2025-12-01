@@ -1,0 +1,182 @@
+h1 ,h2 header{
+    color: #ffa62b;
+        text-align: center;
+        }   
+
+body {
+    background-color: #82c0cc;
+    font-family: 'blacksmith', sans-serif;
+
+}
+
+nav a{
+    justify-content: center;
+}
+
+a {
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+    color: #82c0cc;
+
+}
+
+header {
+    background-color: #16697A;
+    border:2px solid black;
+    border-radius: 25px;
+}
+
+
+
+#liste-projets {
+    text-align: center;
+}
+
+/* Titres des sections */
+section h2 {
+  color: #1e3a5f;
+  /* couleur des titres principaux des sections (bleu foncé) */
+  font-size: 1.5em;
+  /* taille du titre de section */
+}
+
+section h3 {
+  color: #004080;
+  /* couleur des sous-titres (bleu plus profond) */
+  font-size: 1.2em;
+  /* taille des sous-titres */
+}
+
+/* Paragraphes dans les sections */
+section p {
+  color: #333333;
+  /* couleur du texte des paragraphes (gris foncé) */
+  font-family: Georgia, serif;
+  /* police plus classique pour le texte des sections */
+}
+
+/* Liens dans les sections */
+section a {
+  color: #1e90ff;
+  /* couleur des liens dans le contenu (bleu clair) */
+  text-decoration: underline;
+  /* ajout d’un soulignement pour distinguer les liens */
+}
+
+section a:hover {
+  color: #0056b3;
+  /* couleur des liens au survol (bleu foncé) pour contraste */
+}
+
+
+
+
+
+.projets {
+  text-align: center;
+  /* centre les articles à l'intérieur du conteneur */
+}
+
+.projets article {
+  display: inline-block;
+  /* affiche les articles les uns à côté des autres (comme du texte) */
+  vertical-align: top;
+  /* aligne le haut des articles entre eux */
+  width: 220px;
+  /* largeur fixe pour chaque carte */
+  margin: 10px;
+  /* espace extérieur autour de chaque carte */
+  padding: 10px;
+  /* espace intérieur entre le bord et le contenu */
+  background: #f9f9f9;
+  /* couleur de fond gris très clair */
+  border: 1px solid #ddd;
+  /* bordure fine et grise autour des cartes */
+  border-radius: 8px;
+  /* arrondit légèrement les coins de la carte */
+  text-align: left;
+  /* le texte à l’intérieur est aligné à gauche */
+}
+
+.projets h3 {
+  margin-top: 0;
+  /* supprime l’espace au-dessus du titre */
+  font-size: 1.1rem;
+  /* définit la taille du titre en unités relatives */
+}
+
+.projets a {
+  text-decoration: none;
+  /* enlève le soulignement par défaut des liens */
+  color: #0066cc;
+  /* applique une couleur bleue au lien */
+  font-weight: bold;
+  /* met le lien en gras */
+}
+
+.projets a:hover {
+  text-decoration: underline;
+  /* remet le soulignement quand on survole le lien */
+}
+
+.projets p {
+  font-size: 0.9rem;
+  /* définit une taille de texte légèrement plus petite */
+  color: #333;
+  /* applique une couleur gris foncé au texte */
+}
+
+
+nav a {
+    /**********************/
+    /* Boîte & Espacement */
+    /**********************/
+    display: inline-block;
+    /* Permet au lien d'être transformable et de gérer le padding */
+    padding: 6px 12px;
+    /* Espace intérieur autour du texte */
+
+    /***************/
+    /* Typographie */
+    /***************/
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+    color: #fff;
+    /* Couleur du texte : blanc */
+    font-weight: bold;
+    /* Texte en gras */
+
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    background-color: var(--head);
+    /* Couleur de fond bleu vif */
+
+    /************/
+    /* Bordures */
+    /************/
+    border-radius: 6px;
+    /* Coins arrondis pour un effet "bouton" */
+
+    /***************/
+    /* Transitions */
+    /***************/
+    transition: transform 0.2s ease;
+    /* Animation fluide pour le déplacement au survol */
+}
+/* --- Survol des liens de navigation interne --- */
+nav a:hover {
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    /* background-color: #005bb5; <- Propriété écrasée par le dégradé ci-dessous */
+    background: linear-gradient(135deg, var(--foots),var(--orange));
+    /* Dégradé appliqué au survol */
+
+    /*******************/
+    /* Transformations */
+    /*******************/
+    transform: translateY(-3px) scale(1.05);
+    /* Soulève le lien et l’agrandit légèrement */
+}
+

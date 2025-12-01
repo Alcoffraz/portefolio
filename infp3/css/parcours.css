@@ -1,0 +1,102 @@
+h1 ,h2 header{
+    color: #ffa62b;
+        text-align: center;
+        }   
+
+body {
+    background-color: #82c0cc;
+    font-family: 'blacksmith', sans-serif;
+
+}
+
+a {
+    margin-right: 5px;
+    margin-left: 10px;
+    color: #82c0cc;
+    padding: 0.2%;
+}
+
+header {
+    background-color: #16697A;
+    border:2px solid black;
+    border-radius: 25px;
+}
+nav a:hover{
+        color:#ede7e3;
+}
+
+
+
+.parc {
+    justify-items: center;
+}
+table {
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #004080;
+    color: white;
+
+}
+#class1 , #class2 , #class3 {
+    background-color: #004080;
+    color: white;
+}
+
+nav a {
+    /**********************/
+    /* Boîte & Espacement */
+    /**********************/
+    display: inline-block;
+    /* Permet au lien d'être transformable et de gérer le padding */
+    padding: 6px 12px;
+    /* Espace intérieur autour du texte */
+
+    /***************/
+    /* Typographie */
+    /***************/
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+    color: #fff;
+    /* Couleur du texte : blanc */
+    font-weight: bold;
+    /* Texte en gras */
+
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    background-color: var(--head);
+    /* Couleur de fond bleu vif */
+
+    /************/
+    /* Bordures */
+    /************/
+    border-radius: 6px;
+    /* Coins arrondis pour un effet "bouton" */
+
+    /***************/
+    /* Transitions */
+    /***************/
+    transition: transform 0.2s ease;
+    /* Animation fluide pour le déplacement au survol */
+}
+/* --- Survol des liens de navigation interne --- */
+nav a:hover {
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    /* background-color: #005bb5; <- Propriété écrasée par le dégradé ci-dessous */
+    background: linear-gradient(135deg, var(--foots),var(--orange));
+    /* Dégradé appliqué au survol */
+
+    /*******************/
+    /* Transformations */
+    /*******************/
+    transform: translateY(-3px) scale(1.05);
+    /* Soulève le lien et l’agrandit légèrement */
+}
