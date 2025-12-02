@@ -1,0 +1,117 @@
+h1 ,h2 {
+    color: rgba(6, 97, 41, 0.705);
+        text-align: center;
+
+}
+
+body {
+    background-color: rgba(165, 0, 0, 0.726);
+    font-family: 'blacksmith', sans-serif;
+    
+
+}
+header {
+    background-color: rgba(8, 189, 212, 0.644);
+    border:2px solid black;
+}
+main {
+    background-color: rgba(40, 0, 85, 0.664);
+    border:2px solid black;
+}
+button {
+    font-size: 2px;
+    color: black;
+}
+p {
+    color:rgb(30, 0, 78)
+
+}
+img {
+    margin: auto;
+    display: flex;
+    width: auto;
+
+}
+
+.imag {
+    background-color: rgba(76, 85, 0, 0.664);
+    border:2px solid black;
+}
+
+nav a{
+    color: blue;
+}
+a {
+    margin-right: 10px;
+    color: black;
+}
+nav a:hover{
+        color:rgb(174, 0, 255);
+}
+footer {
+    text-align:start;
+    background-color: rgba(200, 38, 206, 0.349);
+
+}
+a:hover{
+        color:rgb(0, 132, 255);
+}
+@font-face {
+    font-family: 'blacksmith' ;
+    src:url('fonts/blacksmith.ttf') format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav a {
+    /**********************/
+    /* Boîte & Espacement */
+    /**********************/
+    display: inline-block;
+    /* Permet au lien d'être transformable et de gérer le padding */
+    padding: 6px 12px;
+    /* Espace intérieur autour du texte */
+
+    /***************/
+    /* Typographie */
+    /***************/
+    text-decoration: none;
+    /* Supprime le soulignement par défaut */
+    color: #fff;
+    /* Couleur du texte : blanc */
+    font-weight: bold;
+    /* Texte en gras */
+
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    background-color: var(--head);
+    /* Couleur de fond bleu vif */
+
+    /************/
+    /* Bordures */
+    /************/
+    border-radius: 6px;
+    /* Coins arrondis pour un effet "bouton" */
+
+    /***************/
+    /* Transitions */
+    /***************/
+    transition: transform 0.2s ease;
+    /* Animation fluide pour le déplacement au survol */
+}
+/* --- Survol des liens de navigation interne --- */
+nav a:hover {
+    /****************************/
+    /* Couleurs & Arrière-plans */
+    /****************************/
+    /* background-color: #005bb5; <- Propriété écrasée par le dégradé ci-dessous */
+    background: linear-gradient(135deg, var(--foots),var(--orange));
+    /* Dégradé appliqué au survol */
+
+    /*******************/
+    /* Transformations */
+    /*******************/
+    transform: translateY(-3px) scale(1.05);
+    /* Soulève le lien et l’agrandit légèrement */
+}
