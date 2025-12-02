@@ -21,9 +21,7 @@ header {
     border:2px solid black;
     border-radius: 25px;
 }
-nav a:hover{
-        color:#ede7e3;
-}
+
 
 
 
@@ -35,8 +33,9 @@ table {
 }
 th,td {
     border: 1px solid black;
-    padding: 10px;
+    padding: 1vw;
     text-align: center;
+    font-size: 2vh;
 }
 th {
     background-color: #004080;
@@ -49,17 +48,14 @@ th {
 }
 
 nav a {
-    /**********************/
     /* Boîte & Espacement */
-    /**********************/
     display: inline-block;
     /* Permet au lien d'être transformable et de gérer le padding */
     padding: 6px 12px;
     /* Espace intérieur autour du texte */
-
-    /***************/
+    
     /* Typographie */
-    /***************/
+    
     text-decoration: none;
     /* Supprime le soulignement par défaut */
     color: #fff;
@@ -67,36 +63,22 @@ nav a {
     font-weight: bold;
     /* Texte en gras */
 
-    /****************************/
-    /* Couleurs & Arrière-plans */
-    /****************************/
     background-color: var(--head);
-    /* Couleur de fond bleu vif */
 
-    /************/
     /* Bordures */
     /************/
     border-radius: 6px;
-    /* Coins arrondis pour un effet "bouton" */
 
-    /***************/
     /* Transitions */
-    /***************/
-    transition: transform 0.2s ease;
-    /* Animation fluide pour le déplacement au survol */
+    transition: transform 0.75s ease;
 }
-/* --- Survol des liens de navigation interne --- */
 nav a:hover {
-    /****************************/
-    /* Couleurs & Arrière-plans */
-    /****************************/
-    /* background-color: #005bb5; <- Propriété écrasée par le dégradé ci-dessous */
-    background: linear-gradient(135deg, var(--foots),var(--orange));
+    background: linear-gradient(135deg, darkcyan, darkgreen);
     /* Dégradé appliqué au survol */
 
-    /*******************/
     /* Transformations */
-    /*******************/
-    transform: translateY(-3px) scale(1.05);
-    /* Soulève le lien et l’agrandit légèrement */
+    transform: translateY(-7px) scale(1.05);
+    border-left: 2px black solid;
+    border-bottom: 1px black solid;
+
 }

@@ -11,22 +11,20 @@
 }
 
     
-
-.old-mode {
-    --orange:rgb(34, 212, 28);
-    --surl:black;
-    --back:purple;
-    --head:#1e3ea8;
-    --foots:white;
-}
 h1 ,h2 header{
     color: var(--orange);
-        text-align: center;
-        }   
+    text-align: center;
+    }  
+p{
+    text-align: right;
+}
 
+h2 {
+        padding-left: 10000px;
+}
 body {
     font-family: 'blacksmith', sans-serif;
-    background:linear-gradient(135deg, rgba(20, 79, 167, 0.815),var(--back),var(--surl));
+    background:linear-gradient(135deg, var(--surl),var(--back),rgba(20, 79, 167, 0.815));
 
 }
 
@@ -52,11 +50,24 @@ header {
 
 }
 
+li{
+    list-style-type: none;     /* Supprime les ronds des listes */
+    text-align: right;
+}
+.boite1 li{
+    margin-right: 100px;
+}
+.boite2 li{
+    margin-right: 100px;
+}
+.boite2 p{
+    margin-right: 150px;
+}
 .bluh {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     font-size: 8px;
-    margin-right: 15px;
+    margin-left: 15px;
     flex-wrap: wrap;
 }
 
@@ -66,7 +77,7 @@ nav a:hover{
 
 
 footer {
-    text-align:start;
+    text-align:end;
     background-color: var(--foots);
 
 }
@@ -75,6 +86,7 @@ footer {
     text-decoration: underline dotted cyan;}
 #porte a:hover {
     color:var(--surl);
+
     
 }
 @font-face {
@@ -87,6 +99,7 @@ footer {
 .boite1 , .boite2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: right;    
 }
 .boite1 p{
     margin-left: 10px;
@@ -95,33 +108,61 @@ footer {
     background-color: var(--back);
     border-radius: 50%;
     padding: 0.5%;
+    
+}
+#theme{
+    text-align: right;
 }
 
 
-nav a:hover {
 
-    background: linear-gradient(135deg, var(--foots),var(--orange));
-    /* Transformations */
-    transform: translateY(-3px) scale(1.05);
-    /* Soulève le lien et l’agrandit légèrement */
-}
 
 nav a {
 
     display: inline-block;
     padding: 6px 12px;
-    /* Espace intérieur autour du texte */
     text-decoration: none;
-    /* Supprime le soulignement par défaut */
     color: #fff;
     font-weight: bold;
     background-color: var(--head);
     border-radius: 6px;
-    transition: transform 2s ease;
-    /* Animation fluide pour le déplacement au survol */
 }
-/* --- Survol des liens de navigation interne --- */
 
+nav a:hover {
+    background: linear-gradient(135deg, darkcyan, darkgreen);
+
+    border-left: 2px black solid;
+    border-bottom: 1px black solid;
+
+
+}
+.Fuy1:hover {
+    transform: translateY(1000px) scale(-10.05);
+    transition: transform 1s ease;
+
+}
+.Fuy2:hover{
+    transform: translateY(-700px) scale(1.05);
+    margin-bottom: 70px;
+    transition: transform 1s ease;
+
+}
+
+.Fuy3:hover{
+    transform: translateX(1000px) scale(1.05);
+    transition: transform 1s ease;
+
+}
+.Fuy4:hover{
+    transform: translateZ(1000px) scale(0.05);
+    transition: transform 1s ease;
+
+}
+.Fuy5:hover{
+    transform: translateX(-1000px) scale(1.05);
+    transition: transform 1s ease;
+
+}
 .Sens{
     color: var(--foots);
 }
