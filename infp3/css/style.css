@@ -125,3 +125,8 @@ nav a {
     color: var(--head);
 
 }
+#theme-toggle{
+    background-color: var(--back);
+    border-radius: 50%;
+    padding: 0.5%;
+}
