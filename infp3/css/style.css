@@ -91,11 +91,7 @@ footer {
 .boite1 p{
     margin-left: 10px;
 }
-#theme-toggle{
-    background-color: var(--back);
-    border-radius: 50%;
-    padding: 0.5%;
-}
+
 
 
 nav a:hover {
@@ -127,4 +123,5 @@ nav a {
 }
 .Sens:hover{
     color: var(--head);
+
 }
